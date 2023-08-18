@@ -17,14 +17,14 @@ const Home = () => {
     }
   };
   return (
-    <div className=" relative w-[100%] h-[100vh] text-zinc-950  bg-cover bg-[url('../../public/picture.jpg')]  bg-bottom ">
+    <div className=" relative w-[100%] h-[100vh] text-zinc-950  bg-cover bg-[url('/picture.jpg')]  bg-bottom ">
       <div className=" text-center py-4">
         <input
           value={location}
           onChange={(event) => setLocation(event.target.value)}
           onKeyDown={searchLocation}
           placeholder="Enter Location"
-          className="p-2 bg-white/50 rounded-3xl w-2/3 text-zinc-950 placeholder-zinc-950"
+          className="p-2 bg-white/50 rounded-3xl w-2/3 text-zinc-950 placeholder-zinc-950 "
           type="text"
         />
       </div>
