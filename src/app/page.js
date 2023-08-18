@@ -17,7 +17,7 @@ const Home = () => {
     }
   };
   return (
-    <div className=" relative w-[100%] h-[100vh] text-zinc-950  bg-cover bg-[url('../public/picture.jpg')]  bg-bottom ">
+    <div className=" relative w-[100%] h-[100vh] text-zinc-950  bg-cover bg-[url('../../public/picture.jpg')]  bg-bottom ">
       <div className=" text-center py-4">
         <input
           value={location}
