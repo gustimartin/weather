@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-[700px] h-[650px] mx-auto px-1 justify-between flex flex-col relative">
+      <div className="max-w-[700px] h-[620px] mx-auto px-1 justify-between flex flex-col relative">
         <div className="w-[100%] m-auto">
           <div>
             <p className="font-semibold sm:text-4xl">{data.name}</p>
