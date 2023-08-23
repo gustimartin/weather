@@ -40,7 +40,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative w-[100%] h-[100%] md:h-screen text-zinc-950  bg-cover bg-[url('/picture.jpg')]  bg-bottom ">
+    <div className="relative w-[100%] h-[100%] sm:h-screen text-zinc-950  bg-cover bg-[url('/picture.jpg')]  bg-bottom ">
       <div className="text-center py-4 flex flex-row justify-evenly">
         <input
           value={location}
